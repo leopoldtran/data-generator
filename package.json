@@ -1,0 +1,30 @@
+{
+  "name": "simple-node-starter",
+  "version": "1.0.0",
+  "description": "Simple starter kit for node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-script": "babel-node index.js --exec babel-node",
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "keywords": [
+    "starterKit",
+    "nodejs"
+  ],
+  "author": "Leopold Tran",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.11.0",
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "faker": "^4.1.0"
+  }
+}
