@@ -129,3 +129,4 @@ fs.writeFile('./SampleData.json', JSON.stringify(data), err => {
   }
   console.log('Write successfully')
 })
+
